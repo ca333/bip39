@@ -492,10 +492,10 @@ it('Allows selection of game', function(done) {
     };
     testNetwork(done, params);
 });
-it('Allows selection of game', function(done) {
+it('Allows selection of komodo', function(done) {
     var params = {
         selectText: "KMD - Komodo",
-        firstAddress: "RJL777dmaB3PYqHEJGMJKWWkLPdu1ypGi4",
+        firstAddress: "RMPPzJwAjPVZZAwJvXivHJGGjdCx6WBD2t",
     };
     testNetwork(done, params);
 });
