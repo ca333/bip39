@@ -8,7 +8,8 @@ https://iancoleman.io/bip39/
 
 ## Standalone offline version
 
-Download `bip39-standalone.html`
+Download `bip39-standalone.html` from
+[the releases](https://github.com/iancoleman/bip39/releases).
 
 Open the file in a browser by double clicking it.
 
@@ -74,6 +75,9 @@ Before running tests, the site must be served at http://localhost:8000.
 ```
 $ cd /path/to/bip39/src
 $ python -m http.server
+
+or for python2
+$ python -m SimpleHTTPServer
 ```
 
 Run tests from the command-line
